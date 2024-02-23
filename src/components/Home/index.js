@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import LogoTitle from '../../assets/images/logo-s.png'
+import ProfilePic from '../../assets/images/image.png'
+
 
 import './index.scss'
 
@@ -53,8 +55,9 @@ const Home = () => {
               idx={15}
             />
              <img
+             className='initial-pic'
               src={LogoTitle}
-              alt="JavaScript Developer "
+              alt="JavaScript Developer"
             />
             <br />
             <AnimatedLetters
@@ -72,9 +75,15 @@ const Home = () => {
           </a>
 
         </div>
-        {/* <Logo /> */}
+        <div className ="picture-class">
+            <img className='profile-pic'
+              src={ProfilePic}
+              alt="JavaScript Developer "
+            />
+        </div>
+       
       </div>
-
+     
       <Loader type="pacman" />
     </>
   )

@@ -1,13 +1,10 @@
 import './index.scss'
 import { useState } from 'react'
-import LogoS from '../../assets/images/logo-s.png'
-import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faLinkedin,
   faGithub,
-  faYoutube,
-  faSkype,
+  
 } from '@fortawesome/free-brands-svg-icons'
 import {
   faHome,
@@ -72,7 +69,7 @@ const Sidebar = () => {
       <ul>
         <li>
           <a
-            href=""
+            href="https://www.linkedin.com/in/arun-kumar-subhash-13a12b56/"
             target="_blank"
             rel="noreferrer"
           >
@@ -85,7 +82,7 @@ const Sidebar = () => {
         </li>
         <li>
           <a
-            href=""
+            href="https://github.com/arungith30?tab=repositories"
             target="_blank"
             rel="noreferrer"
           >

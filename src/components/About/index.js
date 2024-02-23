@@ -43,13 +43,12 @@ try {
             technologies on challenging and diverse projects.
           </p>
           <p align="LEFT">
-            I'm quiet confident, naturally curious, and perpetually working on
-            improving my chops one design problem at a time.
+            I'm constantly working on
+            improving my skills learning new technologies.
           </p>
           <p>
             If I need to define myself in one sentence that would be a family
-            person, father of a beautiful daughter, a sports fanatic,
-            photography enthusiast, and tech-obsessed!!!
+            person and tech-obsessed !!
           </p>
         </div>
 
