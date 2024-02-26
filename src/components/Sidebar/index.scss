@@ -12,13 +12,18 @@
       padding: 8px ;
       text-decoration: none;
       margin: 8px ;
-      width: 50px;
+      max-width: 10px;
       height: auto;
       color: aliceblue;
-
-
+      border-radius: 50%;
+      
     }
-  
+  .profile-pic{
+    max-width: 40px;
+    max-height: 50px;
+    border-radius: 50%;
+
+  }
     nav {
       display: block;
       text-align: center;

@@ -15,6 +15,7 @@ import {
   faClose,
 } from '@fortawesome/free-solid-svg-icons'
 import { Link, NavLink } from 'react-router-dom'
+import ProfilePic from '../../assets/images/image.png'
 
 const Sidebar = () => {
   const [showNav, setShowNav] = useState(false);
@@ -26,7 +27,11 @@ const Sidebar = () => {
         to="/"
         onClick={() => setShowNav(false)}>
         
-        <span >Arun</span> 
+            <img className='profile-pic'
+              src={ProfilePic}
+              alt="JavaScript Developer "
+            />
+       
       </Link>
       <nav className={showNav ? 'mobile-show' : ''}>
         <NavLink 
