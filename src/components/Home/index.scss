@@ -82,22 +82,21 @@
       }
     }
     .picture-class{
-    position: relative;
-    top: -30px;
-    left: 900px;
+    position: absolute;
+    top: 250px;
+    left: 800px;
     z-index: 1;
     max-width: 700px;
-    animation: fadeIn 1s 1.5s;
+    animation: fadeInAnimation 1s 1.8s ;
     animation-fill-mode: forwards;
     }
-    .profile-pic{background: #000;
-      max-width: 70%;
+    .profile-pic{
+      background: #000;
+      max-width:80%;
       height: auto;
       object-fit: cover;
       padding: 20px;
       opacity: 1;
-      animation: fadeIn 1s 1.5s;
-      animation-fill-mode: forwards;
       z-index: 1;
     }
   }
@@ -115,33 +114,26 @@
       display: none;
     }
 
-    
   
     .home-page .text-zone {
       position: initial;
       width: 100%;
       transform: none;
       padding: 10px;
+      margin: 10px;
       box-sizing: border-box;
       
     }
     .picture-class{
-     display: none;
-      overflow: hidden;
-      position: relative;
-      top: 50%;
-      left: 50%;
-      
-      
+     display: none; 
+     overflow: hidden;
+     
+     
     }
-
     .profile-pic{
-  
     opacity: 0;
     animation: fadeIn 1s 1.5s;
-    animation-fill-mode: forwards;
-    width: 100%;
-    height: auto;
+    animation-fill-mode: forwards;   
     object-fit: cover;
     }
   

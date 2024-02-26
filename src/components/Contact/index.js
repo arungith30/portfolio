@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
-// import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters'
@@ -23,8 +22,8 @@ const Contact = () => {
       .sendForm('service_ly6rmei', 'template_zzhgenq', form.current, 'sOjw33TSm7cFZQMaq')
       .then(
         () => {
-          alert('Message successfully sent!')
-          window.location.reload(false)
+          alert('Message successfully sent!');
+          window.location.reload(true);
         },
         (error) => {
           console.log("failed",error.text);
@@ -83,19 +82,7 @@ const Contact = () => {
             </form>
           </div>
         </div>
-        {/* <div className="info-map">
-          sreenilayam
-          <br />
-         punnapra
-          <br />
-         Alappuzha <br />
-         India <br />
-          <br />
-          <span>arunks002info@gmail.com</span>
-        </div>
-        <div className="map-wrap">
-          
-        </div> */}
+        
       </div>
       <Loader type="pacman" />
     </>
